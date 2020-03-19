@@ -18,4 +18,6 @@ git merge  <nom de la branche>                          # fusionne la branche no
 git merge <nom de la branche> -m "<message du commit>"  # même chose que la ligne précédente en fonction de l'IDE
 git remote                                              # Liste les dépôt distants de notre projet git
 git remote add <nom du remote> <adresse du remote>      # ajoute un nouveau dépôt distants
-git push <répertoire oùon envoie> <ce que l on envoit>  # pusher
+git push <nom du dépôt> <branche distante>              # envoie la branche courante sur la branche distante du dépôt
+git push -u <nom du dépôt> < branche distante>          # idem mais paramètre la branche locale pour correspondre à la branche distante de façon permanente
+git clone <nom du dépôt> <nom du dossier>               # Télécharge la branche par défaut du dépôt choisi dans le dossier voulu
